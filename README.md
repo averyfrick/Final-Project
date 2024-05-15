@@ -1,7 +1,8 @@
 # Final Project: Obesity and ACT Scores 
+#### Maggie Huntley and Avery Frick 
 ## Link to Shiny App: (https://huntleymargaret.shinyapps.io/Obesity_ACT/)
 ## Link to Kanban Board: (https://github.com/users/averyfrick/projects/2/views/1)
-## Code Snipets 
+# Code Snipets 
 
 ### 1. Obesity Prevalence and Overall ACT Score per State 
 This histogram shows shows the spread of ACT scores by state. The color of the bar shows the obesity. The lighter blue the bar, the more prevelant obesity is in that state. The darker blue the bar, the less prevalent obesity is in that state.
