@@ -1,5 +1,6 @@
 # Final Project: Obesity and ACT Scores 
 ## Link to Shiny App: (https://huntleymargaret.shinyapps.io/Obesity_ACT/)
+## Link to Kanban Board: (https://github.com/users/averyfrick/projects/2/views/1)
 ## Code Snipets 
 
 ### 1. Obesity Prevalence and Overall ACT Score per State 
