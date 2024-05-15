@@ -1,4 +1,4 @@
-# Final-Project
+# Final Project: Obesity and ACT Scores 
 ## Code Snipets 
 
 ### 1. Obesity Prevalence and Overall ACT Score per State 
@@ -12,7 +12,7 @@ ggplot(ACT_obs, aes(x = State, y = Composite_score , fill = Obesity_Prev)) +
 
 ```
 ### 2. State and Overall ACT
-This histogram shows the ACT scores for eahc state.
+This histogram shows the ACT scores for each state.
 
 ```
 ggplot(df, aes(x = State, y = Composite_score)) +
@@ -45,7 +45,7 @@ ggplot(filtered_data, aes(x = State, y = Obesity_Prev)) +
 
 ```
 ### 5. States with highest Act score 
-After creating the previous charts we were able to see the states wiht the highest ACT scores. To better see them we created this chart that shows the 6 states with the highest ACT scores. 
+After creating the previous charts we were able to see the states with the highest ACT scores. To better see them we created this chart that shows the 6 states with the highest ACT scores. 
 
 ```
 ggplot(filtered_data, aes(x = State, y = Composite_score)) +
@@ -84,7 +84,7 @@ ggplot(filtered_data, aes(x = State, y = Obesity_Prev)) +
 ### -> Conclusion: One state fit our expectation of having high obesity and low ACT scores and that is Tennessee. One state also fit our expectation of low obesity and high ACT score and that is Massachusetts. We came to this conclusion from the 4 charts above (4, 5, 6, 7). 
 
 ### 8. Obesity Prevalence and Overall English ACT Score per State 
-This histogram look at just the English score of the ACT. 
+This histogram looks at the English score of the ACT. Connecticut has the highest English ACT score.
 
 ```
 ggplot(english_obs, aes(x = State, y = English, fill = Obesity_Prev)) + 
@@ -94,7 +94,7 @@ ggplot(english_obs, aes(x = State, y = English, fill = Obesity_Prev)) +
 
 ```
 ### 9. Obesity Prevalence and Overall Math ACT Score per State 
-This histogram look at just the Math score of the ACT. 
+This histogram looks at the Math score of the ACT. Massachusetts has the highest Math ACT score. 
 
 ```
 ggplot(Math_obs, aes(x = State, y = Math, fill = Obesity_Prev)) + 
@@ -104,8 +104,7 @@ ggplot(Math_obs, aes(x = State, y = Math, fill = Obesity_Prev)) +
 
 ```
 ### 10. Obesity Prevalence and Overall Reading ACT Score per State 
-This histogram look at just the Reading score of the ACT. 
-
+This histogram looks at the Reading score of the ACT. Massachusetts has the highest Reading ACT score. 
 ```
 ggplot(Reading_obs, aes(x = State, y = Reading, fill = Obesity_Prev)) + 
   geom_col()+
@@ -114,7 +113,7 @@ ggplot(Reading_obs, aes(x = State, y = Reading, fill = Obesity_Prev)) +
 
 ```
 ### 11. Obesity Prevalence and Overall Science ACT Score per State 
-This histogram look at just the Science score of the ACT. 
+This histogram looks at the Science score of the ACT. Connecticut, Massachusetts, and New Hampshire have the highest Science ACT scores. 
 
 ```
 ggplot(sci_obs, aes(x = State, y = Science, fill = Obesity_Prev)) + 
@@ -124,7 +123,7 @@ ggplot(sci_obs, aes(x = State, y = Science, fill = Obesity_Prev)) +
 
 ```
 ### 12. Obesity Prevalence and State Percentage of Test Taking 
-This hisotgram shows...
+This histogram shows a wide color variety for states with 100% rate of taking ACT. These shows that regardless of obesity rates in states the ACT will still be taken. 
 
 ```
 ggplot(test_obs, aes(x = State, y = percent_taking_ACT, fill = Obesity_Prev)) + 
